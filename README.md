@@ -47,7 +47,7 @@ and write to standard output (i.e., the screen).
 - **Input is the same as output:** If the input file and output file are the same file, an error message "Input and output file must
 differ" and exit with return code 1. and input should also be erased due to some reasons.
 
-- **String and file length:** if program Runs without and arguments , the Max lines through `stdin`(standard input) allowed is `MAX_LINE_STDIN == 100000`
+- **String and file length:** if program Runs without arguments , the Max lines through `stdin`(standard input) allowed is `MAX_LINE_STDIN == 100000`
  and the ` Line Buffer size is 10KB` . so , reversing large number of lines in file can be reversed by using arguments options.
 - **Invalid files:** If an input file or output file, and for some reason, program failes to open `input.txt` 
 , it  print out the following error message: `error:cannot open file 'input.txt'` and then exit with return code 1
